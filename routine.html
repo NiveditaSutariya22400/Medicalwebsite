@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- loadersection -->
+    <div class="loader-box">
+        <div class="loader"></div>
+    </div>
+    <!-- headersection -->
+    <header class="bg-white">
+        <div class="topbar border-bottom px-4 d-none d-md-block m-0 bg-main">
+            <div class="d-flex justify-content-between">
+                <div class="left d-flex">
+                    <ul class="hstack m-0 ">
+                        <div class="t-i"><a href="#" class="me-2"><i
+                                    class="fa-sharp fa-solid fa-location-dot text-white"></i></a></div>
+
+                        <h6 class="font-14 roboto m-0 f-color">121 King St, Melbourne, VIC 3000</h6>
+
+
+                    </ul>
+                    <ul class="hstack m-0">
+                        <div class="t-i"><a href="tel:" class="me-2"><i class="fa-solid fa-phone text-white"></i></a>
+                        </div>
+                        <h6 class="font-14 roboto m-0 f-color">121 King Street, Melbourne,</h6>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul class="hstack list-unstyled m-0">
+                        <li class="py-2 mx-2 t-icon"><a href="#"><i class="bi bi-facebook   text-white"></i></a></li>
+                        <li class="py-2 mx-2 t-icon"><a href="#"><i class="bi bi-twitter   text-white"></i></a></li>
+                        <li class="py-2 mx-2 t-icon"><a href="#"><i class="bi bi-linkedin   text-white"></i></a></li>
+                        <li class="py-2 mx-2 t-icon"><a href="#"><i class="bi bi-google   text-white"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mainbar px-4 py-3  bg-white ">
+            <nav class="navbar navbar-expand-lg">
+                <a href="index.html" class="px-3 "><img src="img/logo.png" alt="" class="img-fluid logo ms-2"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="index.html"
+                                class="text-decoration-none nav-link text-gray">Home</a></li>
+                        <li class="nav-iteml"><a href="about.html" class="text-decoration-none nav-link text-gray">About
+                                Us</a></li>
+                        <li class="nav-item dropdown"><a href="service.html"
+                                class="dropdown-toggle text-decoration-none nav-link text-gray"
+                                data-bs-toggle="dropdown" role="button">Services</a>
+                            <ol class="dropdown-menu">
+                                <li><a href="service.html" class="text-decoration-none dropdown-item">Our Services
+                                    </a></li>
+                                <li><a href="routine.html" class="text-decoration-none dropdown-item">Routine Medical
+                                        Care</a></li>
+                                <li><a href="fullblood.html" class="text-decoration-none dropdown-item">Full Blood
+                                        Picture</a></li>
+                                <li><a href="mri.html" class="text-decoration-none dropdown-item">MRI Diagnostic</a>
+                                </li>
+                                <li><a href="xray.html" class="text-decoration-none dropdown-item">X-Ray Diagnostic</a>
+                                </li>
+                                <li><a href="price.html" class="text-decoration-none dropdown-item">Price Details</a>
+                                </li>
+                                <li><a href="faq.html" class="text-decoration-none dropdown-item">Faq</a></li>
+                            </ol>
+                        </li>
+                        <li class="nav-item dropdown"><a href="pages.html"
+                                class=" dropdown-toggle text-decoration-none nav-link text-gray"
+                                data-bs-toggle="dropdown" role="button">Pages</a>
+                            <ol class="dropdown-menu">
+                                <li><a href="whowewhere.html" class="text-decoration-none dropdown-item">Who We
+                                        Where</a></li>
+                                <li><a href="doctors.html" class="text-decoration-none dropdown-item">Meet Doctors</a>
+                                </li>
+                                <li><a href="doctorprofile.html" class="text-decoration-none dropdown-item">Doctor
+                                        Details</a></li>
+                                <li><a href="doctimetable.html" class="text-decoration-none dropdown-item">Doctors
+                                        Timetable</a></li>
+                                <li><a href="blog.html" class="text-decoration-none dropdown-item">Blog Post</a></li>
+                            </ol>
+                        </li>
+                        <li class="nav-item dropdown"><a href="#"
+                                class="dropdown-toggle  text-decoration-none nav-link text-gray"
+                                data-bs-toggle="dropdown" role="button">Contact</a>
+                            <ol class="dropdown-menu">
+                                <li><a href="contact.html" class="text-decoration-none dropdown-item">Contact Us</a>
+                                </li>
+                                <li><a href="appointment.html" class="text-decoration-none dropdown-item">Make an
+                                        Appointment</a></li>
+                            </ol>
+                        </li>
+                        <li class="nav-item ms-3"><button class="btn-1 nav-link rounded-3"><a href="appointment.html"
+                                    class="text-decoration-none text-white">Make an Appointment</a></button></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+    </header>
+    <!-- pagesbanner -->
+    <div class="banner2 pd-80">
+        <div class="container ">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-main">Home</a></li>
+                    <li class="breadcrumb-item"><a href="service.html" class="text-main">Service</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Routine Medical Care</li>
+                </ol>
+                <h2 class="font-28 lato heading">Routine Medical Care</h2>
+            </nav>
+        </div>
+    </div>
+   <!-- medicalsection -->
+   <section class="routine pd-80">
+      <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="routine-box d-flex justify-content-between border  p-4 bg-secondary-1">
+                    <h5 class="font-16 roboto m-0"><a href="routine.html" class="text-decoration-none text-dark">Routine Medical Care</a></h5>
+                    <a href="routine.html"><i class="fa-solid fa-right-long" style="color: #00a3c8;"></i></a>
+                </div>
+                <div class="routine-box d-flex justify-content-between p-4 mt-3">
+                    <h5 class="font-16 roboto m-0 text-gray"><a href="fullblood.html" class="text-decoration-none text-gray">Full Blood Picture</a></h5>
+                     <a href="fullblood.html"><i class="fa-solid fa-right-long" style="color: #00a3c8;"></i></a>
+                </div>
+                <div class="routine-box d-flex justify-content-between p-4  mt-3">
+                    <h5 class="font-16 roboto m-0 text-gray"><a href="mri.html" class="text-decoration-none text-gray">MRI Diagnostic</a></h5>
+                     <a href="mri.html"><i class="fa-solid fa-right-long" style="color: #00a3c8;"></i></a>
+                </div>
+                <div class="routine-box d-flex justify-content-between p-4  mt-3">
+                    <h5 class="font-16 roboto m-0 text-gray"><a href="xray.html" class="text-decoration-none text-gray">X-Ray Diagnostic</a></h5>
+                     <a href="xray.html"><i class="fa-solid fa-right-long" style="color: #00a3c8;"></i></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+                <div class="common-heading col-12  mb-5">
+                    <h2 class="font-42 heading fw-bold mb-4">Routine Medical Care</h2>
+                    <p class="roboto font-16 text-gray ">Sapien gravida donec enim ipsum blandit porta justo integer odio velna vitae auctor integer congue <br> magna at pretium purus pretium ligula rutrum itae laoreet augue in cubilia laoreet an augue egestas <br> ipsum vitae emo ligula vitae arcu mollis blandit ultrice ligula egestas magna suscipit</p>
+                </div>
+                <img src="img/pediatrics_1000x500.jpg" class="img-fluid mb-5" alt="">
+              
+                <span class="roboto font-16 ">An enim nullam tempor sapien gravida donec enim ipsum blandit porta justo integer odio velna vitae auctor integer congue magna at pretium purus pretium ligula rutrum itae laoreet augue in cubilia laoreet an augue egestas ipsum vitae emo ligula vitae arcu mollis blandit ultrice ligula egestas magna suscipit</span>
+                <div class="d-flex flex-wrap mt-3">
+                    <ul class="list-unstyled pe-4 col-12 col-md-6">
+                        <li><i class="fa-solid fa-angles-right text-main me-1 font-14"></i>Nemo ipsam egestas volute and turpis dolores quaerat massa suscipit, luctus neque</li>
+                        <li class="my-3"><i class="fa-solid fa-angles-right text-main me-1 font-14"></i>Magna massa suscipit, luctus neque purus and ipsum neque dolor primis luctus tempor</li>
+                        <li><i class="fa-solid fa-angles-right text-main me-1 font-14"></i>An enim nullam tempor at pretium blandit</li>
+                    </ul>
+                    <ul class="list-unstyled ps-md-4 col-12 col-md-6">
+                        <li><i class="fa-solid fa-angles-right text-main me-1 font-14"></i>Magna massa suscipit, luctus neque purus and ipsum neque dolor primis luctus tempor</li>
+                        <li class="my-3"><i class="fa-solid fa-angles-right text-main me-1 font-14"></i>
+                            An enim nullam tempor at pretium blandit</li>
+                        <li><i class="fa-solid fa-angles-right text-main me-1 font-14"></i>
+                            Magna massa suscipit, luctus neque purus and ipsum neque dolor primis luctus tempor</li>
+                    </ul>
+                    <button  class="btn-1 rounded-3 px-4 py-2 mt-4 mt-4"><a href="service.html" class="text-decoration-none text-white">View More Details</a></button> 
+            </div>
+        </div>
+      </div>
+   </section>
+         <!-- testimonialsection -->
+         <section class="testimonial pd-80 bg-secondary-1">
+            <div class="container">
+               <div class="common-heading text-center mx-auto col-12 col-md-6">
+                      
+                   <h2 class="font-42  fw-bold mb-4 heading">What Our Patients Say</h2>
+                   <span class="roboto font-16 text-gray mb-4">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero at tempus, blandit posuere ligula varius congue cursus porta feugiat</span>
+               </div>
+               <div class="swiper testi-slider">
+                   <div class="swiper-wrapper mt-5">
+                     <div class="swiper-slide p-2 ">
+                          <div class="testi-box p-5  text-center bg-white">
+                              <div class="testi-img mx-auto">
+                               <img src="img/review-author-1.jpg" class="img-fluid rounded-circle" alt="">
+                              </div>
+                              <p class="font-22 lato mt-5">Etiam sapien sem at sagittis congue an augue massa varius egestas a suscipit
+                           </p>
+                           <h5 class="LATO font-14 fw-bold mt-5 text-uppercase">Scott Boxer</h5>
+                           <span class="font-12 fw-semibold text-gray">Programmer</span>
+                          </div>
+                     </div>
+                     <div class="swiper-slide p-2">
+                       <div class="testi-box p-5  text-center bg-white">
+                       <div class="testi-img mx-auto">
+                        <img src="img/review-author-2.jpg" class="img-fluid rounded-circle" alt="">
+                       </div>
+                       <p class="font-22 lato mt-5">Augue egestas volutpat egestas augue in cubilia laoreet magna suscipit luctus
+                       </p>
+                    <h5 class="LATO font-14 fw-bold mt-5 text-uppercase">Penelopa Peterson</h5>
+                    <span class="font-12 fw-semibold text-gray">Project Manager</span>
+                   </div>
+                     </div>
+                     <div class="swiper-slide p-2">
+                       <div class="testi-box p-5  text-center bg-white">
+                           <div class="testi-img mx-auto">
+                            <img src="img/review-author-3.jpg" class="img-fluid rounded-circle" alt="">
+                           </div>
+                           <p class="font-22 lato mt-5">Etiam sapien sem at sagittis congue an augue massa varius egestas a suscipit
+                        </p>
+                        <h5 class="LATO font-14 fw-bold mt-5 text-uppercase"> RM.Scanlon</h5>
+                        <span class="font-12 fw-semibold text-gray">Photographer</span>
+                       </div>
+                     </div>
+                     <div class="swiper-slide p-2">
+                       <div class="testi-box p-5  text-center bg-white">
+                           <div class="testi-img mx-auto">
+                            <img src="img/review-author-4.jpg" class="img-fluid rounded-circle" alt="">
+                           </div>
+                           <p class="font-22 lato mt-5">Augue egestas volutpat egestas augue in cubilia laoreet magna suscipit luctus </p>
+                        <h5 class="LATO font-14 fw-bold mt-5 text-uppercase">Jeremy Kruse</h5>
+                        <span class="font-12 fw-semibold text-gray">Graphic Designer</span>
+                       </div>
+                     </div>
+                     <div class="swiper-slide p-2">
+                       <div class="testi-box p-5  text-center bg-white">
+                           <div class="testi-img mx-auto">
+                            <img src="img/review-author-5.jpg" class="img-fluid rounded-circle" alt="">
+                           </div>
+                           <p class="font-22 lato mt-5">Etiam sapien sem at sagittis congue an augue massa varius egestas a suscipit
+                        </p>
+                        <h5 class="LATO font-14 fw-bold mt-5 text-uppercase">Evelyn Martinez</h5>
+                        <span class="font-12 fw-semibold text-gray">Senior UX/UI Designer</span>
+                       </div>
+                     </div>
+                     <div class="swiper-slide p-2">
+                       <div class="testi-box p-5  text-center bg-white">
+                           <div class="testi-img mx-auto">
+                            <img src="img/review-author-6.jpg" class="img-fluid rounded-circle" alt="">
+                           </div>
+                           <p class="font-22 lato mt-5">Augue egestas volutpat egestas augue in cubilia laoreet magna suscipit luctus</p>
+                        <h5 class="LATO font-14 fw-bold mt-5 text-uppercase">Dan Hodges</h5>
+                        <span class="font-12 fw-semibold text-gray">Internet Surfer</span>
+                       </div>
+                     </div>
+                     <div class="swiper-slide p-2">
+                       <div class="testi-box p-5  text-center bg-white">
+                           <div class="testi-img mx-auto">
+                            <img src="img/review-author-7.jpg" class="img-fluid rounded-circle" alt="">
+                           </div>
+                           <p class="font-22 lato mt-5">Etiam sapien sem at sagittis congue an augue massa varius egestas a suscipit
+                        </p>
+                        <h5 class="LATO font-14 fw-bold mt-5 text-uppercase">Isabel </h5>
+                        <span class="font-12 fw-semibold text-gray">SEO Manager</span>
+                       </div>
+                     </div>
+                     <div class="swiper-slide p-2">
+                       <div class="testi-box p-5  text-center bg-white">
+                           <div class="testi-img mx-auto">
+                            <img src="img/review-author-8.jpg" class="img-fluid rounded-circle" alt="">
+                           </div>
+                           <p class="font-22 lato mt-5">Augue egestas volutpat egestas augue in cubilia laoreet magna suscipit luctus
+                            
+                        </p>
+                        <h5 class="LATO font-14 fw-bold mt-5 text-uppercase">Alex Ross</h5>
+                        <span class="font-12 fw-semibold text-gray">Patient</span>
+                       </div>
+                     </div>
+                     <div class="swiper-slide p-2">
+                       <div class="testi-box p-5 text-center bg-white">
+                           <div class="testi-img mx-auto">
+                            <img src="img/review-author-9.jpg" class="img-fluid rounded-circle" alt="">
+                           </div>
+                           <p class="font-22 lato mt-5">Etiam sapien sem at sagittis congue an augue massa varius egestas a suscipit
+                        </p>
+                        <h5 class="LATO font-14 fw-bold mt-5 text-uppercase">Alisa Milano</h5>
+                        <span class="font-12 fw-semibold text-gray">Housewife</span>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+            </div>
+        </section>
+    <!-- certifidedoctorsection -->
+    <section class="certifide pt-80">
+        <div class="container">
+            <div class="common-heading text-center mx-auto col-12  mb-5">
+                <h2 class="font-42 heading fw-bold mb-4">Certified and Experienced Doctors</h2>
+                <span class="roboto font-16 text-gray ">Aliquam a augue suscipit, luctus neque purus ipsum neque dolor primis libero <br> at tempus, blandit posuere ligula varius congue cursus porta feugiat</span>
+            </div>
+            <img src="img/image-07.png" class="img-fluid mx-auto d-block" alt="">
+        </div>
+</section>
+     <!-- footerdsection -->
+  <footer class="mainfooter pt-100">   
+    <div class="container">
+       <div class="footer-box ">
+          <div class="row pb-50">
+          <div class="col-12 col-md-6 col-lg-3">
+              <div class="footer-box">
+                  <div class="footer-logo">
+                      <img src="img/footer-logo-white.png" alt="">
+                  </div>
+                  <p class="font-16 roboto f-color mt-3">Aliquam orci nullam tempor sapien gravida donec an enim ipsum porta justo velna auctor congue magna laoreet augue sapien gravida at purus euismod</p>
+                  <div class="hstack">
+                      <div class="f-icon1"><a href="#" class="f-color text-decoration-none"><i class="bi bi-facebook"></i></a></div>
+                      <div class="f-icon2"><a href="#" class="f-color text-decoration-none"><i class="bi bi-twitter"></i></a></div>
+                      <div class="f-icon3"><a href="#" class="f-color text-decoration-none"><i class="fa-brands fa-google-plus-g"></i></a></div>
+                      <div class="f-icon4"><a href="#" class="f-color text-decoration-none"><i class="fa-brands fa-tumblr"></i></a></div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+              <h3 class="lato font-18 text-white fw-semibold ">Our Location</h3>
+              <p class="f-color mt-3">121 King Street, Melbourne,<br>
+                  Victoria 3000 Australia</p>
+                  <p class="f-color lato font-16 m-0">E: <span class="fw-bold text-white"><a href="mailto:hello@yourdomain.com" class="text-white font-16">hello@yourdomain.com</a></span></p>
+                  <p class="m-0 f-color font-16">P: <a href="tel:+12 9 8765 4321" class="text-decoration-none f-color">+12 9 8765 4321</a></p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+              <h3 class="lato font-18 text-white fw-semibold ">Working Time</h3>
+               <ul class="list-unstyled mt-3">
+                  <li class="mb-2 text-white"><span class="f-color">Mon - Wed -</span> 9:00 AM - 7:00 PM</li>
+                  <li class="mb-2 text-white"><span class="f-color">Thursday -</span> 9:00 AM - 6:30 PM</li>
+                  <li class="mb-2 text-white"><span class="f-color">Friday -</span> 9:00 AM - 6:00 PM</li>
+                  <li class="mb-2 text-white"><span class="f-color">Sat - Sun -</span> Closed</li>
+               </ul>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+              <h3 class="lato font-18 text-white fw-semibold ">Emergency Cases
+            </h3>
+              <h5 class="font-24 my-3"><a href="tel:1-800-123-4560" class="text-decoration-none text-main fw-bold ">1-800-123-4560</a></h5>
+              <p class="font-16 roboto f-color">Aliquam orci nullam undo tempor sapien gravida donec enim ipsum porta justo velna aucto magna</p>
+         </div>
+       </div>
+       <div class="footer-box2 border-top p-4">
+          <div class="row align-items-center">
+              <p class="m-0 f-color">© 2019 <span class="fw-bold text-white">MedService</span>. All Rights Reserved</p>
+          </div>
+     </div>
+      </div>
+    
+    </div>
+    
+ </footer>
+
+        <!-- backtotop -->
+        <div class="backtotop">
+            <a href="#" class="text-white"><i class="fa-solid fa-angles-up"></i></a>
+        </div>
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery-3.7.0.js"></script>
+        <script src="js/jquery.min.js"></script>
+    
+    
+    
+    <!-- backtotop,loader,headersection  -->
+        <script>
+            $(document).scroll(function () {
+                if ($(window).scrollTop()>500) {
+                    $(".mainbar").addClass("position-fixed bg-white shadow top-0 w-100")
+    
+                    $(".backtotop").fadeIn("bfixed")
+                }
+                else {
+                    $(".mainbar").removeClass("position-fixed shadow top-0 w-100")
+    
+                    $(".backtotop").fadeOut("bfixed")
+                }
+    
+            })
+            $(window).load(function () {
+                $(".loader-box").fadeOut(2000);
+            })
+        </script>
+        <!-- testimonialslider -->
+           <script>
+            var swiper = new Swiper(".testi-slider", {
+              slidesPerView:3 ,
+              spaceBetween: 30,
+              autoplay:true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+             breakpoints:{
+                320:{
+                slidesPerView: 1,
+              spaceBetween: 30,
+              },
+              840:{
+                slidesPerView: 2,
+              spaceBetween: 30,
+              },
+              1000:{
+                slidesPerView: 3,
+              spaceBetween: 30,
+              },
+             }
+            });
+          </script>
+    </body>
+    
+    </html>

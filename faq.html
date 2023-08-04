@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- loadersection -->
+    <div class="loader-box">
+        <div class="loader"></div>
+    </div>
+    <!-- headersection -->
+    <header class="bg-white">
+        <div class="topbar border-bottom px-4 d-none d-md-block m-0 bg-main">
+            <div class="d-flex justify-content-between">
+                <div class="left d-flex">
+                    <ul class="hstack m-0 ">
+                        <div class="t-i"><a href="#" class="me-2"><i
+                                    class="fa-sharp fa-solid fa-location-dot text-white"></i></a></div>
+
+                        <h6 class="font-14 roboto m-0 f-color">121 King St, Melbourne, VIC 3000</h6>
+
+
+                    </ul>
+                    <ul class="hstack m-0">
+                        <div class="t-i"><a href="tel:" class="me-2"><i class="fa-solid fa-phone text-white"></i></a>
+                        </div>
+                        <h6 class="font-14 roboto m-0 f-color">121 King Street, Melbourne,</h6>
+                    </ul>
+                </div>
+                <div class="right">
+                    <ul class="hstack list-unstyled m-0">
+                        <li class="py-2 mx-2 t-icon"><a href="#"><i class="bi bi-facebook   text-white"></i></a></li>
+                        <li class="py-2 mx-2 t-icon"><a href="#"><i class="bi bi-twitter   text-white"></i></a></li>
+                        <li class="py-2 mx-2 t-icon"><a href="#"><i class="bi bi-linkedin   text-white"></i></a></li>
+                        <li class="py-2 mx-2 t-icon"><a href="#"><i class="bi bi-google   text-white"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mainbar px-4 py-3  bg-white ">
+            <nav class="navbar navbar-expand-lg">
+                <a href="index.html" class="px-3 "><img src="img/logo.png" alt="" class="img-fluid logo ms-2"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="nav">
+                        <li class="nav-item"><a href="index.html"
+                                class="text-decoration-none nav-link text-gray">Home</a></li>
+                        <li class="nav-iteml"><a href="about.html" class="text-decoration-none nav-link text-gray">About
+                                Us</a></li>
+                        <li class="nav-item dropdown"><a href="service.html"
+                                class="dropdown-toggle text-decoration-none nav-link text-gray"
+                                data-bs-toggle="dropdown" role="button">Services</a>
+                            <ol class="dropdown-menu">
+                                <li><a href="service.html" class="text-decoration-none dropdown-item">Our Services
+                                    </a></li>
+                                <li><a href="routine.html" class="text-decoration-none dropdown-item">Routine Medical
+                                        Care</a></li>
+                                <li><a href="fullblood.html" class="text-decoration-none dropdown-item">Full Blood
+                                        Picture</a></li>
+                                <li><a href="mri.html" class="text-decoration-none dropdown-item">MRI Diagnostic</a>
+                                </li>
+                                <li><a href="xray.html" class="text-decoration-none dropdown-item">X-Ray Diagnostic</a>
+                                </li>
+                                <li><a href="price.html" class="text-decoration-none dropdown-item">Price Details</a>
+                                </li>
+                                <li><a href="faq.html" class="text-decoration-none dropdown-item">Faq</a></li>
+                            </ol>
+                        </li>
+                        <li class="nav-item dropdown"><a href="pages.html"
+                                class=" dropdown-toggle text-decoration-none nav-link text-gray"
+                                data-bs-toggle="dropdown" role="button">Pages</a>
+                            <ol class="dropdown-menu">
+                                <li><a href="whowewhere.html" class="text-decoration-none dropdown-item">Who We
+                                        Where</a></li>
+                                <li><a href="doctors.html" class="text-decoration-none dropdown-item">Meet Doctors</a>
+                                </li>
+                                <li><a href="doctorprofile.html" class="text-decoration-none dropdown-item">Doctor
+                                        Details</a></li>
+                                <li><a href="doctimetable.html" class="text-decoration-none dropdown-item">Doctors
+                                        Timetable</a></li>
+                                <li><a href="blog.html" class="text-decoration-none dropdown-item">Blog Post</a></li>
+                            </ol>
+                        </li>
+                        <li class="nav-item dropdown"><a href="#"
+                                class="dropdown-toggle  text-decoration-none nav-link text-gray"
+                                data-bs-toggle="dropdown" role="button">Contact</a>
+                            <ol class="dropdown-menu">
+                                <li><a href="contact.html" class="text-decoration-none dropdown-item">Contact Us</a>
+                                </li>
+                                <li><a href="appointment.html" class="text-decoration-none dropdown-item">Make an
+                                        Appointment</a></li>
+                            </ol>
+                        </li>
+                        <li class="nav-item ms-3"><button class="btn-1 nav-link rounded-3"><a href="appointment.html"
+                                    class="text-decoration-none text-white">Make an Appointment</a></button></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+    </header>
+    <!-- pagesbanner -->
+    <div class="banner2 pd-80">
+        <div class="container ">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html" class="text-main">Home</a></li>
+                    <li class="breadcrumb-item"><a href="service.html" class="text-main">Services</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">FAQs</li>
+                </ol>
+                <h2 class="font-28 lato heading">FAQs</h2>
+            </nav>
+        </div>
+    </div>
+    <!-- Faqsection -->
+    <section class="faq pd-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="faq-box pe-4">
+                        <div class="faq-heading ">
+                            <h3 class="lato heading font-42 fw-bold">Frequently Asked Questions</h3>
+                            <p class="font-16 roboto text-gray">Porta semper lacus cursus, feugiat primis ultrice in
+                                ligula risus auctor tempus feugiat dolor lacinia cubilia curae integer congue leo metus,
+                                primis in orci integer metus mollis faucibus enim. Nemo ipsam egestas volute turpis
+                                dolores ut aliquam quaerat sodales sapien undo pretium purus feugiat dolor impedit magna
+                                purus pretium gravida donec ligula massa gravida donec pretium</p>
+                        </div>
+                        <div class="faq-content">
+                            <h2 class="font-24 text-main lato fw-semibold my-5">1. General Questions</h2>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingOne">
+                                        <button class="accordion-button lato font-18 text-dark fw-bold" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            Is porta semper MedService primis?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Nullam rutrum eget nunc varius etiam mollis
+                                                risus congue aliquam etiam sapien egestas, congue gestas posuere cubilia
+                                                congue ipsum mauris lectus laoreet gestas neque vitae auctor eros dolor
+                                                luctus odio tempor sapien gravida donec pretium and ipsum porta
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            How feugiat primis ultrice in ligula?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Nullam rutrum eget nunc varius etiam mollis
+                                                risus congue aliquam etiam sapien egestas, congue gestas posuere cubilia
+                                                congue ipsum
+                                                <ul class="mt-3">
+                                                    <li class="roboro font-16">Vitae auctor integer congue magna at
+                                                        pretium purus pretium ligula rutrum luctus risus eros dolor
+                                                        auctor cubilia curae integer congue leo metus, primis in orci
+                                                        integer metus mollis enim</li>
+                                                    <li class="roboro font-16">Sagittis congue augue egestas volutpat
+                                                        egestas magna suscipit egestas magna cubilia curae integer
+                                                        congue leo metus, primis in orci integer metus mollis faucibus
+                                                        enimipsum</li>
+                                                </ul>
+                                        </div>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Did donec pretium and MedService porta?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Aliqum mullam blandit tempor sapien gravida
+                                                donec ipsum, at porta justo. Velna vitae auctor eros congue magna nihil
+                                                impedit ligula risus. Mauris donec ociis et magnis sapien etiam sapien
+                                                sem sagittis cubilia curae integer congue leo metus, primis in orci
+                                                integer metus mollis enim
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingfour">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour"
+                                            aria-expanded="false" aria-controls="collapsefour">
+                                            What is metus mollis faucibus?
+                                        </button>
+                                    </h2>
+                                    <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="heading"
+                                        data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Nullam rutrum eget nunc varius etiam mollis
+                                                risus congue aliquam etiam sapien egestas, congue gestas posuere cubilia
+                                                congue ipsum mauris lectus laoreet gestas neque vitae auctor eros dolor
+                                                luctus odio tempor sapien gravida donec pretium and ipsum porta
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-content">
+                            <h2 class="font-24 text-main lato fw-semibold my-5">1. General Questions</h2>
+                            <div class="accordion" id="accordionExample2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingfive">
+                                        <button class="accordion-button lato font-18 text-dark fw-bold" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapsefive"
+                                            aria-expanded="true" aria-controls="collapsefive">
+                                            How much congue magna nihil impedit ligula risus?
+                                        </button>
+                                    </h2>
+                                    <div id="collapsefive" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingfive" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Nullam non scelerisque lectus. In at mauris vel
+                                                nisl convallis porta at vitae dui. Nam lacus ligula, vulputate molestie
+                                                quis aliquet cubilia curae integer congue leo metus, primis in orci
+                                                integer metus mollis faucibus enim
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingsix">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix"
+                                            aria-expanded="false" aria-controls="collapsesix">
+                                            What I congue magna nihil convallis porta?
+                                        </button>
+                                    </h2>
+                                    <div id="collapsesix" class="accordion-collapse collapse"
+                                        aria-labelledby="headingsix" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Nullam non scelerisque lectus. In at mauris vel
+                                                nisl convallis porta at vitae dui. Nam lacus ligula, vulputate molestie
+                                                bibendum quis, aliquet elementum massa. Vestibulum ut sagittis
+                                                odio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingseven">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven"
+                                            aria-expanded="false" aria-controls="collapseseven">
+                                            Is there a aliquet elementum massa?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseseven" class="accordion-collapse collapse"
+                                        aria-labelledby="headingseven" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Aliqum mullam blandit tempor sapien gravida
+                                                donec ipsum, at porta justo. Velna vitae auctor eros congue magna nihil
+                                                impedit ligula risus. Mauris donec ociis et magnis sapien etiam sapien
+                                                sem sagittis congue tempor gravida donec enim ipsum porta justo integer
+                                                at odio velna congue integer vitae auctor eros dolor luctus odio
+                                                placerat massa magna
+                                            </span>
+                                            <p class="roboro font-16 mt-3">Nullam rutrum eget nunc varius etiam mollis
+                                                risus congue aliquam etiam sapien egestas, congue gestas posuere cubilia
+                                                congue ipsum mauris lectus laoreet gestas neque vitae
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingeight">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight"
+                                            aria-expanded="false" aria-controls="collapseeight">
+                                            Can I auctor eros dolor luctus odio placerat massa magna?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseeight" class="accordion-collapse collapse"
+                                        aria-labelledby="headingeight" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Maecenas gravida porttitor nunc, quis vehicula
+                                                magna luctus tempor. Quisque vel laoreet turpis. Urna augue, viverra a
+                                                augue eget, dictum tempor diam. Sed pulvinar consectetur nibh, vel
+                                                imperdiet dui varius viverra. Pellentesque ac massa lorem. Fusce eu
+                                                cursus est fusce non nulla
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingnine">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine"
+                                            aria-expanded="false" aria-controls="collapsenine">
+                                            Do you have vehicula magna luctus tempor?
+                                        </button>
+                                    </h2>
+                                    <div id="collapsenine" class="accordion-collapse collapse"
+                                        aria-labelledby="headingenine" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Nullam rutrum eget nunc varius etiam mollis
+                                                risus congue aliquam etiam sapien egestas, congue gestas posuere cubilia
+                                                congue ipsum mauris lectus laoreet gestas neque vitae auctor eros dolor
+                                                luctus odio placerat magna cursus
+                                                <ul class="mt-3">
+                                                    <li class="roboro font-16">Vitae auctor integer congue magna at
+                                                        pretium purus pretium ligula rutrum luctus risus</li>
+                                                    <li class="roboro font-16 my-3">Sagittis congue augue egestas
+                                                        volutpat egestas magna suscipit egestas magna ipsum vitae purus
+                                                        efficitur ipsum primis in cubilia laoreet augue egestas luctus
+                                                        donec diamTempor sapien gravida donec enim ipsum blandit magna
+                                                        at purus pretium ligula rutrum luctus</li>
+                                                    <li class="roboro font-16">Justo odio integer a velna lectus aenean
+                                                        magna and mauris lectus pretium ligula rutrum luctus risus ac
+                                                        risus auctor gravida donec congue tempor gravida donec enim
+                                                        ipsum porta justo integer</li>
+                                                </ul>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="faq-content">
+                            <h2 class="font-24 text-main lato fw-semibold my-5">3. Emergency Help Questions</h2>
+                            <div class="accordion" id="accordionExample3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingten">
+                                        <button class="accordion-button lato font-18 text-dark fw-bold" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            I have tempor sapien gravida?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse show"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Aliqum mullam blandit tempor sapien gravida
+                                                donec ipsum, at porta justo. Velna vitae auctor eros congue magna nihil
+                                                impedit ligula risus. Mauris donec ociis et magnis sapien etiam sapien
+                                                sem sagittis congue tempor gravida donec enim ipsum porta justo integer
+                                                at odio velna congue integer vitae auctor eros dolor luctus odio
+                                                placerat
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            I want molestie bibendum quis, aliquet?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Curabitur ac dapibus libero. Quisque eu
+                                                tristique neque. Phasellus blandit tristique justo ut aliquam. Aliquam
+                                                vitae molestie nunc. Quisque sapien justo, aliquet non molestie sed,
+                                                venenatis nec purus. Aliquam eget lacinia elit. Vestibulum tincidunt
+                                                tincidunt massa, et porttitor justo tincidunt eu. </span>
+                                            <p class="roboro font-16 mt-3">Nullam non scelerisque lectus. In at mauris
+                                                vel nisl convallis porta at vitae dui. Nam lacus ligula, vulputate
+                                                molestie bibendum quis, aliquet elementum massa. Vestibulum ut sagittis
+                                                odio</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button collapsed lato font-18 text-dark fw-bold"
+                                            type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="false" aria-controls="collapseThree">
+                                            Can I tincidunt tincidunt massa, et porttitor?
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body">
+                                            <span class="roboro font-16">Curabitur ac dapibus libero. Quisque eu
+                                                tristique neque. Phasellus blandit tristique justo ut aliquam. Aliquam
+                                                vitae molestie nunc. Quisque sapien justo, aliquet non molestie sed,
+                                                venenatis nec purus. Aliquam eget lacinia elit. Vestibulum tincidunt
+                                                tincidunt massa, et porttitor justo tincidunt eu.
+                                                <p class="roboro font-16 mt-3">Nullam non scelerisque lectus. In at
+                                                    mauris vel nisl convallis porta at vitae dui. Nam lacus ligula,
+                                                    vulputate molestie bibendum quis, aliquet elementum massa.
+                                                    Vestibulum ut sagittis odio</p>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="faq-box-2">
+                        <div class="faqone-box mb-5">
+                            <div class="faq-head border-bottom pb-3">
+                                <h3 class="font-20 lato heading fw-bold">The Heart Of Clinic</h3>
+                            </div>
+                            <div class="hstack align-items-end">
+                               <div class="faq-img">
+                                <img src="img/head-of-clinic.jpg" class="img-fluid mt-4 me-4" alt="">
+                               </div>
+                                <div class="faq-content2">
+                                    <h4 class="font-20 lato heading">Dr. Jonathan Barnes</h4>
+                                    <h6 class="font-14">Chief Medical Officer, Founder</h6>
+                                    <h5 class="font-20 text-main roboto"><a href="tel:1-800-1234-567" class="text-decoration-none text-main">1-800-1234-567</a></h5>
+                                    
+                                </div>
+                                
+                            </div>
+                            <p class="font-16 roboto mt-3">An enim nullam tempor sapien at gravida donec pretium ipsum porta justo integer at odiovelna vitae auctor integer congue magna purus</p>
+                                    <button class="btn-1 rounded-3 px-4 py-2 mt-2 mx-auto mx-lg-0"><a href="doctorprofile.html"
+                                        class="text-decoration-none text-white">Lern More</a></button>
+                        </div>
+                        <div class="work-time-b rounded-3 bg-main text-white p-5  mt-lg-0">
+                            <h5 class="lato font-26 fw-bold">Opening Hours:</h5>
+                            <p class="roboto mt-3 f-color">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor at tempus feugiat dolor lacinia cursus nulla vitae massa</p>
+                            <table>
+                               <tbody>
+                                   <tr>
+                                       <td class="text-start f-color">Mon – Wed</td>
+                                       <td class="px-4"> – </td>
+                                       <td class="text-end">9:00 AM - 7:00 PM</td>
+                                   </tr>
+                                   <tr>
+                                       <td class="text-start f-color">Thursday</td>
+                                       <td class="px-4"> – </td>
+                                       <td class="text-end">9:00 AM - 6:30 PM</td>
+                                   </tr>
+                                   <tr>
+                                       <td class="text-start f-color">Friday</td>
+                                       <td class="px-4"> – </td>
+                                       <td class="text-end">9:00 AM - 6:00 PM</td>
+                                   </tr>
+                                   <tr>
+                                       <td class="text-start f-color">Sunday</td>
+                                       <td class="px-4"> – </td>
+                                       <td class="text-end">Closed</td>
+                                   </tr>
+                               </tbody> 
+                            </table>
+                            <h5 class="lato font-20 fw-bold mt-4">Need a personal health plan?</h5>
+                            <p class="roboto mt-3 f-color">Porta semper lacus cursus, and feugiat primis ultrice ligula at risus auctor</p>
+                       </div>
+                       <div class="faq-last-box border mt-5 p-5 rounded">
+                           <h3 class="font-20 lato heading fw-bold">Doctors Timetable</h3>
+                           <p class="font-16 roboto mt-3">Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor at tempus feugiat dolor lacinia cursus nulla vitae massa</p>
+                           <button class="btn-1 rounded-3 px-4 py-2 mt-2 mx-auto mx-lg-0"><a href="doctimetable.html"
+                            class="text-decoration-none text-white">View Timetable</a></button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footerdsection -->
+    <footer class="mainfooter pt-100">
+        <div class="container">
+            <div class="footer-box ">
+                <div class="row pb-50">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="footer-box">
+                            <div class="footer-logo">
+                                <img src="img/footer-logo-white.png" alt="">
+                            </div>
+                            <p class="font-16 roboto f-color mt-3">Aliquam orci nullam tempor sapien gravida donec an
+                                enim ipsum porta justo velna auctor congue magna laoreet augue sapien gravida at purus
+                                euismod</p>
+                            <div class="hstack">
+                                <div class="f-icon1"><a href="#" class="f-color text-decoration-none"><i
+                                            class="bi bi-facebook"></i></a></div>
+                                <div class="f-icon2"><a href="#" class="f-color text-decoration-none"><i
+                                            class="bi bi-twitter"></i></a></div>
+                                <div class="f-icon3"><a href="#" class="f-color text-decoration-none"><i
+                                            class="fa-brands fa-google-plus-g"></i></a></div>
+                                <div class="f-icon4"><a href="#" class="f-color text-decoration-none"><i
+                                            class="fa-brands fa-tumblr"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-md-0">
+                        <h3 class="lato font-18 text-white fw-semibold ">Our Location</h3>
+                        <p class="f-color mt-3">121 King Street, Melbourne,<br>
+                            Victoria 3000 Australia</p>
+                        <p class="f-color lato font-16 m-0">E: <span class="fw-bold text-white"><a
+                                    href="mailto:hello@yourdomain.com"
+                                    class="text-white font-16">hello@yourdomain.com</a></span></p>
+                        <p class="m-0 f-color font-16">P: <a href="tel:+12 9 8765 4321"
+                                class="text-decoration-none f-color">+12 9 8765 4321</a></p>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                        <h3 class="lato font-18 text-white fw-semibold ">Working Time</h3>
+                        <ul class="list-unstyled mt-3">
+                            <li class="mb-2 text-white"><span class="f-color">Mon - Wed -</span> 9:00 AM - 7:00 PM</li>
+                            <li class="mb-2 text-white"><span class="f-color">Thursday -</span> 9:00 AM - 6:30 PM</li>
+                            <li class="mb-2 text-white"><span class="f-color">Friday -</span> 9:00 AM - 6:00 PM</li>
+                            <li class="mb-2 text-white"><span class="f-color">Sat - Sun -</span> Closed</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mt-5 mt-lg-0">
+                        <h3 class="lato font-18 text-white fw-semibold ">Emergency Cases
+                        </h3>
+                        <h5 class="font-24 my-3"><a href="tel:1-800-123-4560"
+                                class="text-decoration-none text-main fw-bold ">1-800-123-4560</a></h5>
+                        <p class="font-16 roboto f-color">Aliquam orci nullam undo tempor sapien gravida donec enim
+                            ipsum porta justo velna aucto magna</p>
+                    </div>
+                </div>
+                <div class="footer-box2 border-top p-4">
+                    <div class="row align-items-center">
+                        <p class="m-0 f-color">© 2019 <span class="fw-bold text-white">MedService</span>. All Rights
+                            Reserved</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- backtotop -->
+    <div class="backtotop">
+        <a href="#" class="text-white"><i class="fa-solid fa-angles-up"></i></a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.7.0.js"></script>
+    <script src="js/jquery.min.js"></script>
+
+
+    <!-- backtotop&header  -->
+    <script>
+        $(document).scroll(function () {
+            if ($(window).scrollTop() > 500) {
+                $(".mainbar").addClass("position-fixed bg-white shadow top-0 w-100")
+
+                $(".backtotop").fadeIn("bfixed")
+            }
+            else {
+                $(".mainbar").removeClass("position-fixed shadow top-0 w-100")
+
+                $(".backtotop").fadeOut("bfixed")
+            }
+
+        })
+        $(window).load(function () {
+            $(".loader-box").fadeOut(2000);
+        })
+    </script>
+</body>
+
+</html>
